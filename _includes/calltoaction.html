@@ -8,13 +8,16 @@
   {% else %}
   {% endif %}
 
-  {{ cta.rss[plang][0] }}
-  <a href="/feed.xml">{{ cta.rss[plang][1] }}</a>
-  {{ cat.rss[plang][2]}}
+  {% if site.rss_enabled %}
+    {{ cta.rss[plang][0] }}
+    <a href="/feed.xml">{{ cta.rss[plang][1] }}</a>
+    {{ cat.rss[plang][2]}}
+  {% endif %}
+
 
   {% if site.twitter_username %}
     {{ cta.twitter[plang][0] }}
     <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>
-    {{ cta.twitter[plang][1] }}
-  {% endif %}.
+    {{ cta.twitter[plang][1] }}.
+  {% endif %}
 </div>

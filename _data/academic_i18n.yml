@@ -16,13 +16,13 @@ cta:
     en: "Do you enjoy the blog?"
   post:
     fr: "Le post vous a plu ?"
-    en: "Did you like that post?"
+    en: "Did you like this post?"
   rss:
     fr: ["Vous pouvez vous abonner au", "fil RSS", "du blog"]
     en: ["You can suscribe to the", "RSS feed", ""]
   twitter:
-    fr: ["ou suivre", "sur Twitter"]
-    en: ["or follow", "on Twitter"]
+    fr: ["Vous pouvez suivre", "sur Twitter"]
+    en: ["You can follow", "on Twitter"]
 links:
   fr: "Liens :"
   en: "Links :"
