@@ -11,7 +11,7 @@
       {% endif %}
 
       <div class="legal">
-      {% if site.cc == null %}©{% endif %}
+      ©
       {{ site.author }}
       {% assign oldest_post = site.posts reversed | first %}
       {% assign oldest = oldest_post.date | date: "%Y" %}
@@ -21,12 +21,13 @@
         {{ i18n.legal[plang][0] }}
         <a target="_blank" href="{% include _i18n/i18n.html value=site.author_website %}">{{ site.author }}</a> 
       {% endif %}
-      Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> and <a target="_blank" href="https://github.com/gaalcaras/academic">Academic</a>.
-
+      <br/>
+      Powered by <a target="_blank" href="https://jekyllrb.com/">Jekyll</a> and the <a target="_blank" href="https://github.com/gaalcaras/academic">academic</a> theme.
+      <br/>
       {% if site.cc %}
         {{ i18n.legal[plang][1] }}
         <a target="_blank" rel="license" href="https://creativecommons.org/licenses/{{ site.cc }}/4.0/" class="cc-licence">
-          CC {{ site.cc }}
+          CC {{ site.cc }}.
         </a>
       {% endif %}
      </div>

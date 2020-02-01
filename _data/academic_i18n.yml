@@ -31,7 +31,7 @@ by:
   en: "by"
 legal:
   fr: ["par", "est placé sous licence"]
-  en: ["by", "is available under the license"]
+  en: ["by", "Content licensed under the terms of"]
 feed:
   fr: "flux RSS"
   en: "RSS feed"
