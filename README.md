@@ -58,13 +58,13 @@ Table of contents:
     + Use mathematical notations with **MathJax** (loaded only on posts)
     + **Tables and footnotes** styled by default (with the `redcarpet` markdown engine)
     + Add your name and a shortbio at the end of each post
-+ Easily add a "call to action" (RSS feed, Twitter, etc.) at the end of each post and on your homepage
++ Easily add a "call to action" (RSS feed, Bluesky, etc.) at the end of each post and on your homepage
 + **Add a Creative Commons license** to your website directly from your `_config.yml` file
 + **Sitemap** and **404 page** layout
 + Piwik tracking
 + **About page** layout:
     + Responsive two-columns layout
-    + Just fill out your usernames for Twitter, Github, LinkedIn, Keybase ; contact email or personal website ; link to your curriculum vitae.
+    + Just fill out your usernames for Bluesky, Github, LinkedIn, Keybase ; contact email or personal website ; link to your curriculum vitae.
     + Academic automatically loads your Github profile picture.
 + Choose between a **navigation menu** at the top or a **short pitch** for your blog
 + Navigation menu:
@@ -163,7 +163,7 @@ title_html: "<b>hello</b>world"
 
 `author_website`: [optional] url to the external website of the author. If `author_website` exists, it is added in the about layout and in the footer (if `author_display` is `true`).
 
-`twitter_username`: [optional] your Twitter username. If it exists, your account will be linked in the "call to action" boxes (homepage and posts), in the footer and on the about page.
+`bluesky_username`: [optional] your Bluesky username. If it exists, your account will be linked in the "call to action" boxes (homepage and posts), in the footer and on the about page.
 
 `github_username`: [optional] your Github username. If it exists, your account will be linked in the footer and on the about page.
 

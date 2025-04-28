@@ -20,9 +20,9 @@ cta:
   rss:
     fr: ["Vous pouvez vous abonner au", "fil RSS", "du blog"]
     en: ["You can suscribe to the", "RSS feed", ""]
-  twitter:
-    fr: ["Vous pouvez suivre", "sur Twitter"]
-    en: ["You can follow", "on Twitter"]
+  bluesky:
+    fr: ["Vous pouvez suivre", "sur Bluesky"]
+    en: ["You can follow", "on Bluesky"]
 links:
   fr: "Liens :"
   en: "Links :"

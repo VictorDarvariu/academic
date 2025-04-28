@@ -15,9 +15,9 @@
   {% endif %}
 
 
-  {% if site.twitter_username %}
-    {{ cta.twitter[plang][0] }}
-    <a href="https://twitter.com/{{ site.twitter_username }}">@{{ site.twitter_username }}</a>
-    {{ cta.twitter[plang][1] }}.
+  {% if site.bluesky_username %}
+    {{ cta.bluesky[plang][0] }}
+    <a href="https://bsky.app/profile/{{ site.bluesky_username }}">@{{ site.bluesky_username }}</a>
+    {{ cta.bluesky[plang][1] }}.
   {% endif %}
 </div>
